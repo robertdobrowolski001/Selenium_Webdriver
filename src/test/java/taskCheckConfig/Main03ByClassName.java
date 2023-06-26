@@ -1,11 +1,11 @@
-package LocatingElements;
+package taskCheckConfig;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class ByClassName {
+public class Main03ByClassName {
     public static void main(String[] args) {
 
         WebDriver driver = new ChromeDriver();
@@ -15,7 +15,7 @@ public class ByClassName {
         signInButton.click();
         WebElement enterEmail = driver.findElement(By.className("account_input"));
 
-        enterEmail.sendKeys("bo0@wp.pl");
+        enterEmail.sendKeys("bo044@wp.pl");
 
         WebElement createAccountButton = driver.findElement(By.id("SubmitCreate"));
         createAccountButton.click();
